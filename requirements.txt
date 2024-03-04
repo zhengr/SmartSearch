@@ -1,0 +1,5 @@
+hf-transfer==0.1.4
+leptonai
+loguru
+openai
+duckduckgo_search
