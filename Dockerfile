@@ -1,7 +1,6 @@
 FROM python:3.9
 
-RUN git clone --depth 1 https://zhengr:${GIT_ACCESS_TOKEN}@github.com/zhengr/SmartSearch.git
-
+RUN git clone --depth 1 https://github.com/zhengr/SmartSearch.git
 RUN wget https://github.com/zhengr/SmartSearch/releases/download/0.1.0/ui.zip && unzip ui.zip
 
 WORKDIR /SmartSearch
