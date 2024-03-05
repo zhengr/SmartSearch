@@ -42,7 +42,7 @@ SEARCHAPI_SEARCH_ENDPOINT = "https://www.searchapi.io/api/v1/search"
 
 # Specify the number of references from the search engine you want to use.
 # 8 is usually a good number.
-REFERENCE_COUNT = 8
+REFERENCE_COUNT = 12
 
 # Specify the default timeout for the search engine. If the search engine
 # does not respond within this time, we will return an error.
