@@ -428,7 +428,7 @@ class RAG(Photon):
             # On the lepton platform, allow web access when you are logged in.
             "LEPTON_ENABLE_AUTH_BY_COOKIE": "true",
             # If you want to enable history, set this to true. Otherwise, set it to false.
-            "ENABLE_HISTORY": "false",
+            "ENABLE_HISTORY": "true",
             # If you are using openai, specify the base url, e.g. https://api.openai.com/v1
             "OPENAI_BASE_URL": "https://api.openai.com/v1",
         },
